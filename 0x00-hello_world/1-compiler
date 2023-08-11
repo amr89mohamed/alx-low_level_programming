@@ -1,2 +1,2 @@
 #!/bin/bash
-make $CFILE   _my_first_c_file.o
+gcc $CFILE -o _my_first_c_file.o
