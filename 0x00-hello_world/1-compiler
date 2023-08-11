@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -c $CFILE -o _my_first_c_file.o
+gcc -c $CFILE -o main.o
