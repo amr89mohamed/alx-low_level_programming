@@ -4,8 +4,8 @@
  *
  * Return: Always 0 (Success)
  */
-int main (void)
+int main(void)
 {
-  printf("Holberton School/n");
-  return (0);
+printf("Holberton School/n");
+return (0);
 }
