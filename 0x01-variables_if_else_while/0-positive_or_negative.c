@@ -13,17 +13,14 @@ int main(void)
 	/* your code goes there */
 	if (n > 0)
 	  {
-	    scanf ("please enter the first number: %d", n);
 	    printf("%d is positive\n", n);
 	}
 	else if (n == 0)
 	  {
-	    scanf ("please enter the second number: %d", n);
 	  printf("%d is zero\n", n);
 	    }
 	else
 	  {
-	    scanf ("please enter the thired number: %d", n);
 	    printf("%d is negative\n", n);
 	  }
 	return (0);
