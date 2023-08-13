@@ -3,8 +3,8 @@
 #include <stdio.h>
 /* more headers goes there */
 
-/* betty style doc for function main goes there */
-int main(void)
+/*
+*serves as the starting point for program execution */  int main(void)
 {
 	int n;
 
