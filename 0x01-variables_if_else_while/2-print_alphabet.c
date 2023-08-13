@@ -1,13 +1,16 @@
 #include <stdio.h>
+
 /*
- *this the mainfuncation*/int main(void)
+ *thid is the mainfuncation */int main(void)
 {
 char ch;
+for (ch = 'a' ; ch <= 'z' ; ch++)
 {
-ch = 'a', 'z';
-putchar(ch);
-putchar(ch++);
+putchar (ch);
 }
 return (0);
 }
+
+
+
 
