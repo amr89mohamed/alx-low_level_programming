@@ -1,5 +1,6 @@
 #include <stdio.h>
-int main(void)
+/*
+ *this the main funcation */ int main(void)
 {
 puts("_putchar");
 return (0);
