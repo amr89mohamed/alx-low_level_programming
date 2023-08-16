@@ -1,13 +1,15 @@
-#include <stdio.h>
+#include "main.h"
 /*
 * this the main funcation*/int main(void)
 {
 void print_alphabet(void);
-char ch = 'a';
+char alphabet = 'a';
 {
-for (ch = 'a' ; ch <= 'z' ; ch++)
-putchar(ch);
-putchar('\n');
-}
+print_alphabet();
 return (0);
+}
+{
+for (alphabet = 'a' ; alphabet <= 'z' ; alphabet++)
+_putchar(alphabet);
+_putchar('\n');
 }
