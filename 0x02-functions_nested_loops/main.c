@@ -1,6 +1,5 @@
 #include "mian.h"
 #include <stdio.h>
-
 int main(void)
 {
     char c;
@@ -10,4 +9,8 @@ int main(void)
         _putchar(c);
     }
     _putchar('\n');
+    	print_alphabet();
+	return (0);
+
 }
+
