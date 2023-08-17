@@ -1,0 +1,5 @@
+#ifndef LOWER_H
+#define LOWER_H
+int _islower(int c);
+
+#endif
