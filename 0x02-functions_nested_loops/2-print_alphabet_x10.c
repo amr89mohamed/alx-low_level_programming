@@ -1,4 +1,5 @@
 #include "2-alphabet_x10.h"
+#include "main.h"
 /*
  *this a print funcation */ void print_alphabet_x10(void)
 {
