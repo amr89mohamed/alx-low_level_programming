@@ -1,4 +1,4 @@
-#include "2-main.h"
+#include "alphabet_x10.h"
 /*
  *this a print funcation */ void print_alphabet_x10(void)
 {
