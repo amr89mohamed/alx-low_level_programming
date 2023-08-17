@@ -1,2 +1,6 @@
-// This is the declaration of the function _putchar
+#ifndef MAIN
+#define MAIN
+
 int _putchar(char c);
+
+#endif 
