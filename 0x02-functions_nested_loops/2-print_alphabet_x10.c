@@ -1,6 +1,6 @@
 #include "main.h"
 /*
- *this a print funcation */ void print_alphabet_x10(void)
+ *this a print funcation */ void print_alphabet_x10(void);
 {
 char c;
 int i;
