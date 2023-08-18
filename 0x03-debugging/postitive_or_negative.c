@@ -1,10 +1,12 @@
+#include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
 #include "main.h"
+
+void positive_or_negative(int i)
+/* more headers goes there */
 /*
-  *more headers goes there
-  *serves as the starting point for program execution
-  *this the funcation decleratio */ void positive_or_negative(int i)
+*serves as the starting point for program execution */
 {
 if (i > 0)
 {
