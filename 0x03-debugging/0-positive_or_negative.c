@@ -1,7 +1,6 @@
 #include <time.h>
 #include <stdio.h>
 #include "main.h"
-{
  /*
   *more headers goes there
   *serves as the starting point for program execution
