@@ -2,11 +2,10 @@
 #include <time.h>
 #include <stdio.h>
 #include "main.h"
-
-void positive_or_negative(int i)
 /* more headers goes there */
 /*
-*serves as the starting point for program execution */
+ *this the defination */ void positive_or_negative(int i)
+
 {
 if (i > 0)
 {
