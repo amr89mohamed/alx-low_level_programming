@@ -1,7 +1,7 @@
 #include "main.h"
 #include <ctype.h>
 /*
- *this the isdigit funcation which will check if 
+ *this the isdigit funcation which will check if
  * c is didgit or not
  */int _isdigit(int c)
 {
