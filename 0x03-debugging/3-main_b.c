@@ -1,4 +1,3 @@
-carrie@ubuntu:/debugging$ cat 3-main_a.c
 #include <stdio.h>
 #include "main.h"
 
@@ -14,7 +13,7 @@ int main(void)
     int day;
     int year;
 
-    month = 2;
+    month = 02;
     day = 29;
     year = 2000;
 
