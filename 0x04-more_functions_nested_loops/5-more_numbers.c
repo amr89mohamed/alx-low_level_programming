@@ -9,13 +9,15 @@
 {
 int i = 0;
 int j;
-while (i <= 14)
+{
+while (i < 15)
 {
 j = 0;
-while (j <= 10)
+while (j < 11)
 _putchar('\n');
 j++;
 }
 _putchar('0' + i);
 i++;
+}
 }
