@@ -13,10 +13,8 @@ _putchar('_');
 i++;
 }
 {
-_putchar('\n');
-}
-{
 if (n <= 0)
 _putchar('\n');
 }
+_putchar('\n');
 }
