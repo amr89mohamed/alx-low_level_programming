@@ -11,6 +11,7 @@ while (i < n)
 _putchar('_');
 i++;
 }
+_putchar('\n');
 {
 if (n <= 0)
 _putchar('\n');
