@@ -1,3 +1,4 @@
+
 #include "main.h"
 /*
  * this a funcation decleration
@@ -11,7 +12,9 @@ while (i < n)
 _putchar('_');
 i++;
 }
+{
 _putchar('\n');
+}
 {
 if (n <= 0)
 _putchar('\n');
