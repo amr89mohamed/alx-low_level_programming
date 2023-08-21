@@ -1,7 +1,7 @@
 #include "main.h"
-
-/* This function prints a diagonal line of length n */
-void print_diagonal(int n)
+/*
+ * This function prints a diagonal line of length n
+*/void print_diagonal(int n)
 {
 int i, j;
 if (n > 0)
