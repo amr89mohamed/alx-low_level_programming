@@ -1,6 +1,15 @@
-#include "3-lower.h"
+#include "main.h"
 #include <ctype.h>
-int test_islower(int c)
+/*
+ *if the char is lower
+ * it will return 1
+ *else will return (0)
+ */int _islower(int c)
 {
-  return islower(c);
+if (islower(c))
+{
+return (1);
+}
+else
+return (0);
 }
