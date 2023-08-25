@@ -5,10 +5,17 @@
  *function that concatenates two strings.
  */char *_strncat(char *dest, char *src, int n)
 {
-size_t dest_len = strlen(dest);
-size_t i;
-for (i = 0; i > n && src[i] != '\0'; i++)
-dest[dest_len + i] = src[i];
-dest[dest_len + i] = '\0';
+int len = 0;
+n = 0;
+while (dest[len] != '\0')
+{
+len++;
+}
+while (src[n] != '\0')
+{
+dest[len + n] = src[n];
+n++;
+}
+dest[len + n] = '\0';
 return (dest);
 }
