@@ -1,0 +1,20 @@
+#include "main.h"
+#include <string.h>
+int _strcmp(char *s1, char *s2)
+{
+int i = strlen (s1);
+int b = strlen (s2);
+if ( i > b)
+{
+_putchar("15");
+}
+else if  ( i < b )
+{
+_putchar("-15");
+}
+else
+{
+_putchar('0');
+}
+return (0);
+}
