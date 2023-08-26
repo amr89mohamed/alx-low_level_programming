@@ -1,0 +1,9 @@
+#include <unistd.h>
+#include <string.h>
+
+int main(int argc, char *argv[]) {
+   char buf[] = "Hello, world!\n";
+   write(2, buf, strnlen(buf,sizeof(buf)));
+}
+
+
