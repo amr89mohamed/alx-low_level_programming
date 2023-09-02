@@ -4,8 +4,8 @@
  * string to an integer
  */int _atoi(char *s)
 {
-unsigned int x;
-int y;
+unsigned int x = 0;
+int y = 1;
 do {
 if (*s == '-')
 y *= -1;
