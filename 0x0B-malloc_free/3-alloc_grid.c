@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib.h>
 /*
  * this funcation should return
  *  a pointer to a 2 dimensional array of integers
@@ -8,7 +9,7 @@ int **p, x, y;
 p = malloc(sizeof(*p) * height);
 if (width <= 0 || height <= 0 || p == 0)
 {
-return (0);
+return (NULL);
 }
 else
 {
@@ -19,10 +20,10 @@ if (p[x] == 0)
 while (x--)
 free(p[x]);
 free(p);
-return (0);
+return (NULL);
 }
 for (y = 0; y < width ; y++)
-p[x][y] = 0
+p[x][y] = 0;
 }
 return (p);
 }
