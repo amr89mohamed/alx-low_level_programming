@@ -1,20 +1,20 @@
 #include "main.h"
 #include <stdlib.h>
 /*
- * this funcation should return
- *  a pointer to a 2 dimensional array of integers
+* this funcation should return
+*  a pointer to a 2 dimensional array of integers
 */int **alloc_grid(int width, int height)
 {
 int **p, x, y;
-p = malloc(sizeof(*p) * height);
+p = malloc(sizeof(int *) * height);
 if (width <= 0 || height <= 0 || p == 0)
 {
 return (NULL);
 }
 else
-{
 for (x = 0; x < height; x++)
-p[x] = malloc(sizeof(**p) * width);
+{
+p[x] = malloc(sizeof(int) * width);
 if (p[x] == 0)
 {
 while (x--)
