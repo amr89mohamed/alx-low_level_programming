@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib.h>
 /*
  * this funcation will
  * that frees a 2 dimensional
@@ -8,5 +9,5 @@
 int x = 0;
 for (; x < height ; x++)
 free(grid[x]);
-free(grid)
+free(grid);
 }
