@@ -8,7 +8,7 @@
 if (d)
 {
 printf("name:%s\n", d->name ? d->name : "(nil)");
-printf("name:%f\n", d->age);
-printf("name:%s\n", d->owner ? d->owner : "(nil)");
+printf("age:%f\n", d->age);
+printf("owner:%s\n", d->owner ? d->owner : "(nil)");
 }
 }
