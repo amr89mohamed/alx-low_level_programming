@@ -1,6 +1,6 @@
 #include "lists.h"
-#include <string.h>
-
+#include <stdlib.h>
+#include<string.h>
 /**
  * add_node - Adds a new node at the beginning
  *            of a list_t list.
@@ -27,7 +27,7 @@ return (NULL);
 for (l = 0; str[l];)
 l++;
 n->str = d;
-n->l = l;
+n->len = l;
 n->next = *head;
 *head = n;
 return (n);
