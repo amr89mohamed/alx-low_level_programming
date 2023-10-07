@@ -1,5 +1,9 @@
 #include <stdio.h>
-int main(void)
+/*
+ * this funcation
+ * will always return
+ * the digites
+ */int main(void)
 {
 int i, d;
 for (i = 0; i <= 9; i++)
