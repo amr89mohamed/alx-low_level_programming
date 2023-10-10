@@ -13,7 +13,7 @@ for (d = i + 1 ; d <= 99; d++)
 putchar ((i / 10) + '0');
 putchar ((i % 10) + '0');
 putchar(' ');
-putchar((i / 10) + '0');
+putchar((d / 10) + '0');
 putchar((d % 10) + '0');
 if (i == 98 && d == 99)
 break;
