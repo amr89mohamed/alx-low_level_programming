@@ -1,9 +1,0 @@
-#ifndef FUNCATION_LIKE_MACRO_H
-#define FUNCATION_LIKE_MACRO_H
-#define ABS  x 
-#if  ((x) < 0)
-int x = -(x), 
-#endif 
-#else 
-  int x = x, 
-#endif 
