@@ -8,10 +8,11 @@
  *numbers*/int main(int argc, char *argv[])
 {
 int i;
-int x = 1;
-if (argc > 1 || argc < 3)
+int x;
+if (argc > 2 && argc <= 3)
 {
-for (i = 1; i < 3; i++)
+x = 1;
+for (i = 1; i < argc; i++)
 x *= atoi(argv[i]);
 printf("%d\n", x);
 }
