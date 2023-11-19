@@ -18,7 +18,7 @@ printf("%d\n", x);
 }
 else
 {
-printf("error\n");
+printf("Error\n");
 }
 return (1);
 }
