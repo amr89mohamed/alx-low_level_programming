@@ -9,7 +9,7 @@
 {
 int i;
 int x;
-if (argc > 1 && argc <= 3)
+if (argc > 2 && argc <= 3)
 {
 x = 1;
 for (i = 1; i < argc; i++)
