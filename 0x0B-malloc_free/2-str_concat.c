@@ -3,7 +3,6 @@
 #include <stdio.h>
 /*
  * _strlen - return length of a string
- *
  * @s: char type
  * Return:  length of string
  */int _strlen(char *s)
@@ -15,7 +14,6 @@ return (a);
 }
 /*
  * _strncat - function to concatnate strings with n bytes
- *
  * @dest: destination for concatnation
  * @src: source of string
  * @n: int type for size of byte
@@ -47,7 +45,7 @@ s2 = "";
 }
 size1 = _strlen(s1);
 size2 = _strlen(s2);
-ptr = malloc(((size1 + size2) + 1) * sizeof(char));
+ptr = malloc(((size1 + size2) +1) * sizeof(char));
 if (ptr == NULL)
 {
 return (NULL);
