@@ -1,0 +1,30 @@
+#include "variadic_functions.h"
+#include <stdarg.h>
+#include <stdio.h>
+/*
+ * this funcation should
+ * that returns
+ * the string ends
+ * with a new line
+ */void print_strings(const char *separator, const unsigned int n, ...)
+{
+char *sep, *ptr;
+unsigned int s;
+va_list x;
+if (separator == NULL || *separator == 0)
+sep = "";
+else
+sep = (char *) separator;
+va_start(x, n);
+if (n > 0)
+printf("%s", va_arg(x, char *));
+for (s = 1; s < n; s++)
+{
+ptr = va_arg(x, char*);
+if (ptr == NULL)
+ptr = "(nil)";
+printf("%s%s", sep, ptr);
+}
+printf("\n");
+va_end(x);
+}
