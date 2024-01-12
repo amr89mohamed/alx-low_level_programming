@@ -1,0 +1,1 @@
+this the readme .MD file for the static lib in the c programming lang created by amr mohamed 
