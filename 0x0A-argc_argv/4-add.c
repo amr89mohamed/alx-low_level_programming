@@ -18,8 +18,9 @@ int len;
 if (argc < 2)
 {
 printf("0\n");
-return (1);
 }
+else
+{
 for (i = 1; i < argc; i++)
 {
 ptr = argv[i];
@@ -36,5 +37,6 @@ chan = atoi(argv[i]);
 results += chan;
 }
 printf("%d\n", results);
+}
 return (0);
 }
