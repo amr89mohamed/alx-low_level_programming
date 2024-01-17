@@ -9,15 +9,21 @@
 {
 char *cp;
 int i;
-int len = strlen(str);
-cp = malloc((len + 1) * (sizeof(char)));
+int len;
+if (str == NULL)
+{
+return (NULL);
+}
+len = strlen(str);
+cp = malloc((len + 1)  * (sizeof(char)));
+for (i = 0; i < len + 1; i++)
+{
 if (cp == NULL)
 {
 return (NULL);
 }
-for (i = 0; i < len; i++)
-{
 cp[i] = str[i];
 }
+cp[len] = '\0';
 return (cp);
 }
