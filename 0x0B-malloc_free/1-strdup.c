@@ -13,12 +13,12 @@ int len = strlen(str);
 cp = malloc((len + 1) * (sizeof(char)));
 if (str == NULL)
 {
-free(cp);
 return (NULL);
 }
 for (i = 0; i < len; i++)
 {
 cp[i] = str[i];
 }
+free(cp);
 return (cp);
 }
