@@ -19,6 +19,5 @@ for (i = 0; i < len; i++)
 {
 cp[i] = str[i];
 }
-free(cp);
 return (cp);
 }
