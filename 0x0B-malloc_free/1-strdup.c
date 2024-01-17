@@ -11,7 +11,7 @@ char *cp;
 int i;
 int len = strlen(str);
 cp = malloc((len + 1) * (sizeof(char)));
-if (str == NULL)
+if (cp == NULL)
 {
 return (NULL);
 }
