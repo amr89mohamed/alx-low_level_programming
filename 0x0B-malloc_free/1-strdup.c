@@ -10,7 +10,7 @@
 char *cp;
 int i;
 int len = strlen(str);
-cp = malloc((len + 1) * (sizeof(char)));
+cp = malloc(len * (sizeof(char)));
 if (cp == NULL)
 {
 return (NULL);
