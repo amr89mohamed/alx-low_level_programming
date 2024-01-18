@@ -13,7 +13,7 @@ int i, j;
 int len1;
 int len2;
 char *s3;
-if (s1 ==  NULL || s2 == NULL)
+if (s1 ==  NULL && s2 == NULL)
 {
 return (NULL);
 }
