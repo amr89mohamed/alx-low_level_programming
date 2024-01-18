@@ -17,9 +17,13 @@ if (s1 ==  NULL && s2 == NULL)
 {
 return (NULL);
 }
-len1 = (s1 != NULL)?strlen(s1):0;
-len2 = (s2 != NULL)?strlen(s2):0;
+len1 = (s1 != NULL) ? strlen(s1) : 0;
+len2 = (s2 != NULL) ? strlen(s2) : 0;
 s3 = malloc((len1 + len2 + 1) * (sizeof(char)));
+if (s3 == NULL)
+{
+return (NULL);
+}
 for (i = 0; i < len1; i++)
 {
 s3[i] = s1[i];
