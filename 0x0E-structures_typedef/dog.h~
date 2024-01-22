@@ -1,0 +1,14 @@
+#ifndef DOG_H
+#define DOG_H
+/*
+* this struct types
+* @name is astring arry
+* @age is a float varibal
+* @owner is a string arry
+*/struct
+{
+char *name;
+float age;
+char *owner;
+};
+#endif
