@@ -1,4 +1,5 @@
 #include "dog.h"
+#include <stdlib.h>
 /*
  * this the @initdog funcation
  * take @struct dog d(wheres d id a pointer to the stract dog)
