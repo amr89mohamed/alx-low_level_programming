@@ -6,7 +6,7 @@
  * @ y is from 2 to n - 1
 */int is_prime_number2(int n, int y)
 {
-if (n == y)
+if (y == n)
 {
 return (1);
 }
@@ -14,7 +14,7 @@ else if (n % y == 0)
 {
 return (0);
 }
-else
+else  
 return (is_prime_number2(n, y + 1));
 }
 
@@ -23,9 +23,9 @@ return (is_prime_number2(n, y + 1));
  * a 2nd funcation to cheack if prime or not
 */int is_prime_number(int n)
 {
-if (n < 1)
+if (n <= 1)
 {
-return (1);
+return (0);
 }
 return (is_prime_number2(n, 2));
 }
