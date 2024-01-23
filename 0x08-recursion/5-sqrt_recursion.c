@@ -10,11 +10,11 @@ if (q * q == n)
 {
 return (q);
 }
-else if (q < 0)
+else if (q > n)
 {
 return (-1);
 }
-return (_sqrt_recursion2(n, q - 1));
+return (_sqrt_recursion2(n, q + 1));
 }
 
 /*
@@ -22,5 +22,5 @@ return (_sqrt_recursion2(n, q - 1));
  * has a squer root or not
 */int _sqrt_recursion(int n)
 {
-return (_sqrt_recursion2(n, n));
+return (_sqrt_recursion2(n, 1));
 }
