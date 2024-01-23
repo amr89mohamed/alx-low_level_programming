@@ -23,7 +23,7 @@ return (is_prime_number2(n, y + 1));
  * a 2nd funcation to cheack if prime or not
 */int is_prime_number(int n)
 {
-if (n <= 1)
+if (n < 1)
 {
 return (1);
 }
