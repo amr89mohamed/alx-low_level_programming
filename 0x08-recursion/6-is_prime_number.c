@@ -14,7 +14,7 @@ else if (n % y == 0)
 {
 return (0);
 }
-else  
+else
 return (is_prime_number2(n, y + 1));
 }
 
