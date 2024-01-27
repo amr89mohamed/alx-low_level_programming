@@ -22,5 +22,6 @@ if (separator != NULL && i < (int)n - 1)
 printf("%s", separator);
 }
 }
+va_end(inte);
 printf("\n");
 }
