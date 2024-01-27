@@ -20,7 +20,7 @@ for (i = 0; i < (int)n; i++)
 s = va_arg(str, char *);
 if (s == NULL)
 {
-printf("(nil)");
+s = "(nil)";
 }
 printf("%s", s);
 if (separator != NULL && i < (int)n - 1)
