@@ -1,0 +1,21 @@
+#include "lists.h"
+/*
+ * this fun count the num
+ * of nodes in starting from the h pointer
+ * @count is the number of nodes
+*/size_t listint_len(const listint_t *h)
+{
+size_t count = 0;
+listint_t *ptr;
+ptr = (listint_t *)h;
+if (h == NULL)
+{
+return (-1);
+}
+while (ptr != NULL)
+{
+count++;
+ptr = ptr->next;
+}
+return (count);
+}

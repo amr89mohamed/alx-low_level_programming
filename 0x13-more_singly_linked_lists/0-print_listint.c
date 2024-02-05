@@ -9,6 +9,10 @@
 size_t count = 0;
 listint_t *ptr;
 ptr = (listint_t *)h;
+if (h == NULL)
+{
+return (1);
+}
 while (ptr != NULL)
 {
 count++;
