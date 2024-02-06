@@ -9,7 +9,7 @@
 size_t count = 0;
 listint_t *ptr;
 ptr = (listint_t *)h;
-if (h == NULL)
+if (ptr == NULL)
 {
 return (1);
 }
