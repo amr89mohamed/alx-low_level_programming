@@ -1,0 +1,26 @@
+#include "lists.h"
+listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
+{
+listint_t *temp = malloc(sizeof(listint_t));
+listint_t *ptr;
+unsigned count = 0;
+ptr = *head;
+temp->n = n;
+temp->next = NULL;
+while (count <= idx + 1)
+{
+count++;
+ptr = ptr->next;
+}
+temp->next = ptr;
+ count = 0;
+ ptr = *head;
+ while (count <= idx)
+   {
+     count++;
+     ptr = ptr->next;
+   }
+ptr->next = temp;
+
+return (*head);
+}
