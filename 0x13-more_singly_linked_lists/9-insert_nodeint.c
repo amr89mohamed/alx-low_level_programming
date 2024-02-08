@@ -17,24 +17,19 @@ temp->n = n;
 if (idx == 0)
 {
 temp->next = ptr;
-*head = ptr;
-return (ptr);
+*head = temp;
+return (temp);
 }
-while (count <= idx + 1)
+while (ptr != NULL && count < idx - 1)
 {
 count++;
 ptr = ptr->next;
-if (ptr == NULL || ptr->next == NULL)
+}
+if (ptr == NULL)
+{
 return (NULL);
 }
-temp->next = ptr;
-count = 0;
-ptr = *head;
-while (count <= idx)
-{
-count++;
-ptr = ptr->next;
-}
+temp->next = ptr->next;
 ptr->next = temp;
-return (*head);
+return (ptr->next);
 }
