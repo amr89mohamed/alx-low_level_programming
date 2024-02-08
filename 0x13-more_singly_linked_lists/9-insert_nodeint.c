@@ -27,6 +27,7 @@ ptr = ptr->next;
 }
 if (ptr == NULL)
 {
+free(temp);
 return (NULL);
 }
 temp->next = ptr->next;
