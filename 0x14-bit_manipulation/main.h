@@ -10,9 +10,4 @@ int clear_bit(unsigned long int *n, unsigned int index);
 unsigned int flip_bits(unsigned long int n, unsigned long int m);
 int get_endianness(void);
 int _putchar(char c);
-typedef struct list{
-  char item;
-  unsigned int value;
-  struct list *link;
-} bin_to_dic;
 #endif
