@@ -1,0 +1,34 @@
+#include "main.h"
+unsigned int binary_to_uint(const char *b)
+{
+  bin_to_dic *head = malloc(sizeof(bin_to_dic));
+  unsigned int i = 1;
+  unsigned int result = 0;
+  bin_to_dic *ptr;
+  head->item = *b;
+      head->value = i;
+      head->link = NULL;
+      ptr = head;
+      
+      while (*b != '\0')
+    {
+      b++;
+bin_to_dic *temp = malloc(sizeof(bin_to_dic));
+ i<<=1;   
+ temp->item = *b;
+ temp->value = i;
+ ptr->link = temp;
+      ptr = ptr->link;
+      
+    }
+  ptr = head;
+  while (ptr->link != NULL)
+    {
+      if(ptr->item == 1)
+{
+result += ptr->value;
+}
+ptr = ptr->link; 
+}
+return (result);
+}
